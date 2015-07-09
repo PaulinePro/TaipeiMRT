@@ -1,13 +1,13 @@
 {
   "name": "taipei-mrt",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Taipei MRT Api Wrapper",
-  "main": "index.js",
+  "main": "./lib/mrt.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "mrt": "./index.js"
+    "mrt": "./app.js"
   },
   "repository": {
     "type": "git",
