@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var mrt = require('./lib/mrt');
 
 if (process.argv.length !== 3) {
