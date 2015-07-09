@@ -18,6 +18,6 @@ mrt.findByName(name, function(err, results) {
 	}
 
 	results.forEach(function(item) {
-		console.log(item.destination + ': ' + item.countdown);
+		console.log(item.countdown, item.destination);
 	});
 });
