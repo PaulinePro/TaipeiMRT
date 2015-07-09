@@ -1,0 +1,31 @@
+{
+  "name": "taipei-mrt",
+  "version": "0.1.0",
+  "description": "Taipei MRT Api Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mrt": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidyen1124/TaipeiMRT.git"
+  },
+  "keywords": [
+    "taipei",
+    "mrt"
+  ],
+  "author": "David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidyen1124/TaipeiMRT/issues"
+  },
+  "homepage": "https://github.com/davidyen1124/TaipeiMRT#readme",
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "request": "^2.58.0",
+    "xml2js": "^0.4.9"
+  }
+}
